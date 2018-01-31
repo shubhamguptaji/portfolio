@@ -1,0 +1,139 @@
+.name {
+    text-transform: uppercase;
+    font-weight: bold;
+    display: inline-block;
+    text-align: right;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: inherit;
+    overflow: hidden;
+    background-color: black;
+    height: 300px;
+    width: 90%;
+}
+
+.black {
+    color: black;
+}
+
+.cyan {
+    color: cyan;
+}
+
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: brown;
+}
+
+.blue {
+    color: blue;
+}
+
+.lists {
+    float: left;
+    width: 25%;
+}
+
+.listanchor {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: black;
+}
+
+@media screen and (max-width: 550px) {
+  .image1 {
+    height: 120px;
+    width: 220px;
+  }
+
+  h1 {
+    font-size: 100%;
+  }
+
+  h3 {
+    font-size: 100%;
+}
+
+}
+
+.startbox {
+    margin: 4%;
+    width: 90%;
+    height: 2000px;
+    padding: 5%;
+    border: 10px;
+    background-color: black;
+    border-style: inset;
+    border-color: black;
+    color: cyan;
+}
+
+* {
+    font-family: Calibri;
+}
+
+
+.overflow {
+    overflow: auto;
+}
+
+.line {
+    width: 96%;
+    margin: 2%;
+    height: 40px;
+    padding: 4px;
+    border: 2px;
+    background-color: white;
+    color: blue;
+    margin-top: 20px;
+    font-size: 100%;
+    border-radius: 6px;
+}
+
+.box {
+    display: inline-block;
+    width: 100%;
+    background-color: black;
+}
+
+.center {
+    text-align: center;
+    font-size: 167%;
+}
+
+.button1 {
+    text-align: center;
+    width: 220px;
+    height: 350px;
+    margin: 4%;
+    background-color: black;
+    color: white;
+    border-style: solid;
+    border-color: black;
+    cursor: pointer;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.margin-bottom {
+    margin-bottom: 5px;
+}
